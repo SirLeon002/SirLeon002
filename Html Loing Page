@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <style>
+        body {
+            background: url("background6") no-repeat center center fixed;
+            /* Additional background styles can be added here, such as background-size, background-color, etc. */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="login-page">
+        <div class="form">
+            <form class="login-form">
+                <input type="text" placeholder="Username" />
+                <input type="password" placeholder="Password" />
+                <button>Login</button>
+                <p class="message">Not registered? <a href="#">Create an account</a></p>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
